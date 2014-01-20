@@ -1,0 +1,8 @@
+== README
+
+Twitter streamer to allow users to view streams corresponding to different filters
+
+
+
+
+<tt>rake doc:app</tt>.
