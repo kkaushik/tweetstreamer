@@ -2,7 +2,21 @@
 
 Twitter streamer to allow users to view streams corresponding to different filters
 
+How to run:
+
+Create an application.yml with the following data -
+
+CONSUMER_KEY: abcdefghijklmnopqrstuvwxyz
+CONSUMER_SECRET: 0123456789
+OAUTH_TOKEN: abcdefghijklmnopqrstuvwxyz
+OAUTH_TOKEN_SECRET: 0123456789
+
+Run the rails server, bundle exec rails -s
+
+Open a terminal and run a curl
+
+curl -i http://localhost:3000/messaging\?filter\=football
 
 
 
-<tt>rake doc:app</tt>.
+
